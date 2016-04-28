@@ -7,4 +7,4 @@ install:
   - dnu restore
 script:
   - dnu build
-  - dnx test
+  - dnx web
