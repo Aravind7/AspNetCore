@@ -7,3 +7,4 @@ install:
   - dnu restore
 script:
   - dnx -p ./test/EmployeeWebApiTest/project.json test -parallel none
+  - dnx -p ./src/EmployeeWebApi/project.json test -parallel none
