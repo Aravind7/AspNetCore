@@ -6,5 +6,4 @@ install:
   - dnvm upgrade
   - dnu restore
 script:
-  - dnu build
-  - dnx web
+  - dnx -p ./test/EmployeeWebApiTest/project.json test -parallel none
