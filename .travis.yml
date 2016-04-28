@@ -7,4 +7,4 @@ install:
   - dnu restore
 script:
   
-  - dnx -p ./src/EmployeeWebApi/project.json web -parallel none
+  - dnx -p ./src/EmployeeWebApi/project.json web
